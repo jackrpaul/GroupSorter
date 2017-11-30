@@ -8,6 +8,7 @@ public class Printer
 				for(int q = 0; q < Sorter.names.length(); q++)
 					{
 						System.out.println(Sorter.names.get(q));
+						//yaint've
 					}
 			}
 	}
