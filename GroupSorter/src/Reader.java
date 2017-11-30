@@ -16,7 +16,6 @@ public class Reader
 				{
 					String line = file.nextLine();
 					String [] items = line.split(" ");
-					
 				}
 			}
 
