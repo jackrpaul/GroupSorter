@@ -14,7 +14,8 @@ public class Reader
 			Scanner file = new Scanner(new File("roster.txt"));
 			while(file.hasNextLine())
 				{
-				//yes
+
+				//it is 9:35 pm
 				}
 			}
 
