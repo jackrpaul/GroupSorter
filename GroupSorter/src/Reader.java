@@ -14,7 +14,9 @@ public class Reader
 			Scanner file = new Scanner(new File("roster.txt"));
 			while(file.hasNextLine())
 				{
-				//it is currently 9:35
+					String line = file.nextLine();
+					String [] items = line.split(" ");
+					
 				}
 			}
 
