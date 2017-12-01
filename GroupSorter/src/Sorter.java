@@ -5,7 +5,7 @@ public class Sorter
 
 		public static void main(String[] args)
 			{
-				ArratList <Student> students = new ArrayList <Student>()
+				ArrayList <Student> students = new ArrayList <Student>();
 				int space1 = 0;
 				int space2 = 0;
 				boolean spacer = false;
@@ -24,7 +24,7 @@ public class Sorter
 							}
 					}
 				
-				
+				students.add(new Student(line.substring(0,space1),line.substring(space1+1,space2),line.substring(space2+1)));
 			}
 
 	}
