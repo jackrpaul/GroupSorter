@@ -4,12 +4,22 @@ public class Student
 		String firstName;
 		String lastName;
 		double score;
-		public Student(String f, String l, double s)
+		int group;
+		public Student(String f, String l, double s, int g)
 		{
 			firstName = f;
 			lastName = l;
 			score = s;
+			group = g;
 		}
+		public int getGroup()
+			{
+				return group;
+			}
+		public void setGroup(int group)
+			{
+				this.group = group;
+			}
 		public String getFirstName()
 			{
 				return firstName;
