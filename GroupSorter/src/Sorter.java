@@ -30,6 +30,7 @@ public class Sorter
 				Collections.sort(lines);
 				System.out.println("How many groups do you want?");
 				int groups = inp.nextInt();
+				int temp = groups;
 				
 			}
 
