@@ -27,6 +27,8 @@ public class Sorter
 							}
 					}
 				lines.add(line.substring(space2+1) + line.substring(space1+1,space2) + line.substring(0,space1));
+				Collections.sort(lines);
+				System.out.println("How many groups do you want?");
 			}
 
 	}
